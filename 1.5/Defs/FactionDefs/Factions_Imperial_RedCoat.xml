@@ -195,3 +195,5 @@
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>10</configurationListOrderPriority>
   </FactionDef>
+
+</Defs>

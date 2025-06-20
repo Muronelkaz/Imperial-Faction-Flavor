@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
+<defs>
+  
 <RulePackDef>
   <defName>NamerFactionRedcoat</defName>
   <include>
@@ -20,9 +21,7 @@
       <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
     </rulesFiles>
   </rulePack>
-</RulePackDef>
-
-<RulePackDef>
+  
   <defName>NamerSettlementRedcoat</defName>
   <rulePack>
     <rulesStrings>
@@ -87,3 +86,5 @@
     </rulesFiles>
   </rulePack>
 </RulePackDef>
+  
+</defs>
