@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <Name>Imperial Faction Flavor</Name>
+  <name>Imperial Faction Flavor</name>
   <description>Imperial subfactions that add a little more variety to the monolithic faction on the world map.</description>
   <packageId>Muronelkaz.IFF</packageId>
   <author>"Muronelkaz"</author>
