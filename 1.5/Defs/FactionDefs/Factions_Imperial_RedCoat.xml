@@ -13,8 +13,8 @@
     <leaderTitle>Colonel</leaderTitle>
     <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
     <techLevel>Spacer</techLevel>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <factionNameMaker>NamerFactionRedcoat</factionNameMaker>
+    <settlementNameMaker>NamerSettlementRedcoat</settlementNameMaker>
     <allowedCultures>
       <li>Rustican</li>
     </allowedCultures>
@@ -44,7 +44,7 @@
     <backstoryFilters>
       <li>
         <categories>
-          <li>Outlander</li>
+          <li>Pirate</li>
         </categories>
         <commonality>0.95</commonality>
       </li>
@@ -191,6 +191,7 @@
       <li>(0.64, 0.8, 1)</li>
     </colorSpectrum>
     <classicIdeo>true</classicIdeo>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>10</configurationListOrderPriority>
   </FactionDef>
