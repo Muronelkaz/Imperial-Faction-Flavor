@@ -8,16 +8,23 @@
     <listOrderPriority>30</listOrderPriority>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <canMakeRandomly>True</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Colonel</leaderTitle>
-    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
     <techLevel>Spacer</techLevel>
     <factionNameMaker>NamerFactionRedcoat</factionNameMaker>
     <settlementNameMaker>NamerSettlementRedcoat</settlementNameMaker>
     <allowedCultures>
       <li>Rustican</li>
+      <li>Sophian</li>
     </allowedCultures>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+    </requiredMemes>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
@@ -44,7 +51,10 @@
     <backstoryFilters>
       <li>
         <categories>
+          <li>ImperialCommon</li>
           <li>Pirate</li>
+          <li>Outlander</li>
+          <li>Offworld</li>
         </categories>
         <commonality>0.95</commonality>
       </li>
@@ -163,6 +173,9 @@
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0.80, 0, 0)</li>
+    </colorSpectrum>
   </FactionDef>
 
   <ThingSetMakerDef>
@@ -187,8 +200,8 @@
     <label>civil Redcoat union</label>
     <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard.</description>
     <colorSpectrum>
-      <li>(0, 0.4, 0.94)</li>
-      <li>(0.64, 0.8, 1)</li>
+      <li>(1, 0, 0)</li>
+      <li>(0.75, 0, 0)</li>
     </colorSpectrum>
     <classicIdeo>true</classicIdeo>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
