@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <FactionDef ParentName="FactionBase" Name="Imperial_Redcoat" Abstract="True">
+  <FactionDef ParentName="FactionBase" Name="Redcoat" Abstract="True">
     <pawnSingular>redcoat</pawnSingular>
     <pawnsPlural>redcoats</pawnsPlural>
     <categoryTag>Imperial</categoryTag>
@@ -194,7 +194,7 @@
     </root>
   </ThingSetMakerDef>
 
-  <FactionDef ParentName="Imperial_Redcoat">
+  <FactionDef ParentName="Redcoat">
     <defName>RedcoatCivil</defName>
     <label>civil Redcoat union</label>
     <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard.</description>

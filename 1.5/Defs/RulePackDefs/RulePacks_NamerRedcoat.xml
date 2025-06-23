@@ -88,5 +88,12 @@
     </rulesFiles>
   </rulePack>
 </RulePackDef>
-  
+
+  <RulePackDef>
+    <defName>RedcoatUtility</defName>
+    <rulePack>
+      
+    </rulePack>
+  </RulePackDef>
+
 </Defs>
