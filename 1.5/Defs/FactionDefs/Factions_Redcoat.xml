@@ -12,7 +12,7 @@
     <canMakeRandomly>True</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>Colonel</leaderTitle>
+    <leaderTitle>General</leaderTitle>
     <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
     <techLevel>Spacer</techLevel>
     <factionNameMaker>NamerFactionRedcoat</factionNameMaker>
@@ -197,7 +197,7 @@
   <FactionDef ParentName="Redcoat">
     <defName>RedcoatCivil</defName>
     <label>civil Redcoat union</label>
-    <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard.</description>
+    <description>These people have lived here for centuries, and have sold most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced British weapons.\n\nThey are concerned with the practical matters of Empire, Tea, and Spices.\n\nThis particular group holds civil behavior in modest regard.</description>
     <colorSpectrum>
       <li>(1, 0, 0)</li>
       <li>(0.75, 0, 0)</li>

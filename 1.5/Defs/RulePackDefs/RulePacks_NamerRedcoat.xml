@@ -89,11 +89,13 @@
   </rulePack>
 </RulePackDef>
 
-  <RulePackDef>
-    <defName>RedcoatUtility</defName>
-    <rulePack>
-      
-    </rulePack>
+  <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+  <defName>LeaderTitleMaker_Redcoat</defName>
+  <rulePack>
+    <ruleStrings>
+      <li>r_leaderTitle->Colonel</li>
+    </ruleStrings>
+  </rulePack>
   </RulePackDef>
 
 </Defs>
