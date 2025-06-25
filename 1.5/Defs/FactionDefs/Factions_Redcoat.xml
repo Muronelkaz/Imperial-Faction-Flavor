@@ -14,7 +14,7 @@
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>General</leaderTitle>
     <fixedLeaderKinds>
-      <li>?????????????????????????????????</li>
+      <li>RedCoat</li>
     </fixedLeaderKinds>
     <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
     <techLevel>Spacer</techLevel>
@@ -25,7 +25,6 @@
       <li>Sophian</li>
     </allowedCultures>
     <requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
     </requiredMemes>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
