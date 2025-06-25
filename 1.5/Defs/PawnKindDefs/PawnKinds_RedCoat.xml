@@ -29,6 +29,10 @@
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <apparelTags>
       <li>IndustrialBasic</li>
+      <apparelRequired>
+        <li>Apparel_Duster</li>
+        <li>Apparel_FlakVest</li>
+      </apparelRequired>
     </apparelTags>
     <weaponMoney>60~200</weaponMoney>
     <weaponTags>
@@ -63,6 +67,10 @@
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
+      <apparelRequired>
+        <li>Apparel_Duster</li>
+        <li>Apparel_FlakVest</li>
+      </apparelRequired>
     </apparelTags>
     <gearHealthRange>0.4~1.1</gearHealthRange>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
@@ -126,6 +134,12 @@
       <li>IndustrialAdvanced</li>
       <li>IndustrialMilitaryBasic</li>
       <li>IndustrialMilitaryAdvanced</li>
+      <apparelRequired>
+        <li>Apparel_Duster</li>
+        <li>Apparel_BasicShirt</li>
+        <li>Apparel_FlakVest</li>
+        <li>Apparel_FlakPants</li>
+      </apparelRequired>
     </apparelTags>
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     <weaponMoney>250~345</weaponMoney>
