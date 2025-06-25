@@ -3,23 +3,22 @@
 
   <RulePackDef>
     <defName>NamerFactionRedcoat</defName>
-    <include>
-      <li>OutlanderPlaceNameUtility</li>
-    </include>
     <rulePack>
       <rulesStrings>
-        <li>r_name(p=3)->[nearnameinitial]</li>
-        <li>r_name->[nearnameinitial] [political_union_outlander]</li>
-        <li>r_name->[nearnameinitial] [political_adjective] [political_union_outlander]</li>
-        <li>r_name->[political_union_outlander] of [nearnameinitial]</li>
-        <li>r_name->[political_adjective] [political_union_outlander] of [nearnameinitial]</li>
-        <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
-        <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
+        <li>name->Lord General's Regiment of Foot Guards, 1st Regiment of Coldstream</li>
+        <li>name->Jacob's Rifles, 36th Regiment of the Anglo-Dutch East India Company</li>
+        <li>name->Duke of Edinburgh's Own, 7th Regiment of Gurkha Rifles</li>
+        <li>name->Nawab Wazir's Brahaman, 1st Punjab Regiment of of the Anglo-Dutch East India Company</li>
+        <li>name->Connaught Rangers, 88th Regiment of Foot and 94th of the Anglo-Scotts Brigade</li>
+        <li>name->Duke Eberhard's Paladin's, 32nd of the Duchy Württemberg</li>
+        <li>name->Lady America's Rangers, 1st American Regiment</li>
+        <li>name->Volunteers of Ireland, 2nd American, 105th Regiment of Foot</li>
+        <li>name->Dutchess County Company, 3rd American of New Amsterdam</li>
+        <li>name->Lord Protector's Associated Refugees, 4th American, 111th Regiment of Foot</li>
+        <li>name->Albion Legion, 5th American, 101st Regiment of Foot</li>
+        <li>name->Wibbly Wobbly Redcoat Navy's Land Battalion</li>
+        <li>name->Land's Navy ground detachment of the 1st Sea Fleet</li>
       </rulesStrings>
-      <rulesFiles>
-        <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
-        <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
-      </rulesFiles>
     </rulePack>
   </RulePackDef>
 
@@ -27,75 +26,47 @@
   <defName>NamerSettlementRedcoat</defName>
   <rulePack>
     <rulesStrings>
-      <li>r_name(p=12)->[townname_wordgen]</li>
-      <li>r_name(p=6)->[townname_fixed]</li>
-      <li>r_name(p=4)->[townname_combo]</li>
-      <li>r_name->[townname_near]</li>
-
-      <li>topicalnoun->[Vegetable]</li>
-      <li>topicalnoun->[Game]</li>
-      <li>topicalnoun->[BodyPart]</li>
-
-      <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
-      <li>townname_combo->[topicalnoun] [Community]</li>
-      <li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
-      <li>townname_combo->[topicalnoun]'s [Community]</li>
-      <li>townname_combo(p=2)->[concept_positive]'s [TerrainFeature]</li>
-      <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
-      <li>townname_combo(p=2)->[concept_positive] [Community]</li>
-      <li>townname_combo(p=3)->[Character]'s [TerrainFeature]</li>
-      <li>townname_combo(p=3)->[Character]'s [Community]</li>
-
-      <li>townname_near->[nearnameinitial]-at-the-[TerrainFeature]</li>
-      <li>townname_near->[nearnameinitial]-by-the-[TerrainFeature]</li>
-      <li>townname_near->[nearnameinitial]-on-the-[TerrainFeature]</li>
-      <li>nearnameinitial->[townname_wordgen]</li>
-      <li>nearnameinitial->[Community]</li>
-
-      <li>townname_wordgen(p=2)->[SylE][SylE]</li>
-      <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
-      <li>townname_wordgen(p=2)->[SylE][townend]</li>
-      <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
-      <li>townname_wordgen->[TerrainFeature][townend]</li>
-      <li>townname_wordgen->[topicalnoun][townend]</li>
-      <li>townend->ville</li>
-      <li>townend->town</li>
-      <li>townend->hurst</li>
-      <li>townend->bourne</li>
-      <li>townend->brad</li>
-      <li>townend->dale</li>
-      <li>townend->hope</li>
-      <li>townend->ing</li>
-      <li>townend->ness</li>
-      <li>townend->mere</li>
-      <li>townend->shaw</li>
-      <li>townend->wick</li>
-      <li>townend->ton</li>
-      <li>townend->ston</li>
-      <li>townend->os</li>
-      <li>townend->den</li>
-      <li>townend->tas</li>
-      <li>townend->wood</li>
-      <li>townend->land</li>
-      <li>townend->worth</li>
-      <li>townend->roon</li>
-      <li>townend->ron</li>
-      <li>townend->well</li>
+      <li>name->Fort [nameB]</li>
+      <li>name->Fort [nameB]</li>
+      <li>name->Camp [nameB]</li>
+      <li>name->Birmingham</li>
+      <li>name->Bradfordshire</li>
+      <li>name->Bristol</li>
+      <li>name->Cambridge</li>
+      <li>name->Canterbury</li>
+      <li>name->Chester</li>
+      <li>name->Coventry</li>
+      <li>name->Exeter</li>
+      <li>name->Kingston-upon-Hull</li>
+      <li>name->Leeds</li>
+      <li>name->Leicester</li>
+      <li>name->Liverpool</li>
+      <li>name->Manchester</li>
+      <li>name->Newcastle-upon-Tyne</li>
+      <li>name->Norwich</li>
+      <li>name->Nottingham</li>
+      <li>name->Oxford</li>
+      <li>name->Plymouth</li>
+      <li>name->Portsmouth</li>
+      <li>name->Sheffield</li>
+      <li>name->Southampton</li>
+      <li>name->Stoke-on-Trent</li>
+      <li>name->Westminster</li>
+      <li>name->Winchester</li>
+      <li>name->Worcester</li>
+      <li>name->Worcestor</li>
+      <li>name->Wercestor</li>
+      <li>name->Wooster</li>
+      <li>name->Woocestorshite</li>
+      <li>name->Worcestorshire</li>
+      <li>name->York</li>
+      <li>name->Hull</li>
+      <li>name->Edinburgh</li>
+      <li>name->Glasglow</li>
+      <li>name->Cardiff</li>
+      <li>nameB->need more names</li>
     </rulesStrings>
-    <rulesFiles>
-      <li>townname_fixed->Names/OutlanderTown</li>
-      <li>concept_positive->Words/Nouns/Concepts_Positive</li>
-    </rulesFiles>
   </rulePack>
 </RulePackDef>
-
-  <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
-  <defName>LeaderTitleMaker_Redcoat</defName>
-  <rulePack>
-    <ruleStrings>
-      <li>r_leaderTitle->Colonel</li>
-    </ruleStrings>
-  </rulePack>
-  </RulePackDef>
 
 </Defs>

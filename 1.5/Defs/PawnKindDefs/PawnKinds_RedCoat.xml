@@ -6,8 +6,14 @@
     <defaultFactionType>RedcoatCivil</defaultFactionType>
     <chemicalAddictionChance>0.12</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <maxGenerationAge>45</maxGenerationAge>
+    <combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
     <invNutrition>2.55</invNutrition>
     <biocodeWeaponChance>0.1</biocodeWeaponChance>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
   </PawnKindDef>
 
   <!-- Poverty tier - drifter -->
