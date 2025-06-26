@@ -27,12 +27,12 @@
     <itemQuality>Normal</itemQuality>
     <apparelMoney>90~280</apparelMoney>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <apparelRequired>
+      <li>Apparel_Duster</li>
+      <li>Apparel_FlakVest</li>
+    </apparelRequired>
     <apparelTags>
       <li>IndustrialBasic</li>
-      <apparelRequired>
-        <li>Apparel_Duster</li>
-        <li>Apparel_FlakVest</li>
-      </apparelRequired>
     </apparelTags>
     <weaponMoney>60~200</weaponMoney>
     <weaponTags>
@@ -64,13 +64,13 @@
     <initialWillRange>1~3</initialWillRange>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
     <itemQuality>Normal</itemQuality>
+    <apparelRequired>
+      <li>Apparel_Duster</li>
+      <li>Apparel_FlakVest</li>
+    </apparelRequired>
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
-      <apparelRequired>
-        <li>Apparel_Duster</li>
-        <li>Apparel_FlakVest</li>
-      </apparelRequired>
     </apparelTags>
     <gearHealthRange>0.4~1.1</gearHealthRange>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
@@ -129,17 +129,17 @@
     <maxGenerationAge>65</maxGenerationAge>
     <gearHealthRange>0.7~2.3</gearHealthRange>
     <apparelMoney>400~1000</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_Duster</li>
+      <li>Apparel_BasicShirt</li>
+      <li>Apparel_FlakVest</li>
+      <li>Apparel_FlakPants</li>
+    </apparelRequired>
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
       <li>IndustrialMilitaryBasic</li>
       <li>IndustrialMilitaryAdvanced</li>
-      <apparelRequired>
-        <li>Apparel_Duster</li>
-        <li>Apparel_BasicShirt</li>
-        <li>Apparel_FlakVest</li>
-        <li>Apparel_FlakPants</li>
-      </apparelRequired>
     </apparelTags>
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     <weaponMoney>250~345</weaponMoney>

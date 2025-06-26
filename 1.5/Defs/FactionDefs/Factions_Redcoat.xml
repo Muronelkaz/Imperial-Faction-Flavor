@@ -206,7 +206,6 @@
     <description>These people have lived here for centuries, and have sold most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced weapons.\n\nThey are concerned with the practical matters of Empire, Tea, and Spices.\n\nThis particular group holds civil behavior in modest regard.</description>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
     </requiredMemes>
     <colorSpectrum>
       <li>(1, 0, 0)</li>
