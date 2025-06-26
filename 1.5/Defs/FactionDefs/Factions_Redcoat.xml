@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <FactionDef ParentName="FactionBase" Name="Redcoat" Abstract="True">
+  <FactionDef ParentName="FactionBase" Name="IFF_Redcoat" Abstract="True">
     <pawnSingular>redcoat</pawnSingular>
     <pawnsPlural>redcoats</pawnsPlural>
     <categoryTag>Imperial</categoryTag>
@@ -14,7 +14,7 @@
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>General</leaderTitle>
     <fixedLeaderKinds>
-      <li>RedCoat</li>
+      <li>IFF_RedCoat</li>
     </fixedLeaderKinds>
     <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
     <techLevel>Spacer</techLevel>
@@ -200,8 +200,8 @@
     </root>
   </ThingSetMakerDef>
 
-  <FactionDef ParentName="Redcoat">
-    <defName>RedcoatCivil</defName>
+  <FactionDef ParentName="IFF_Redcoat">
+    <defName>IFF_RedcoatCivil</defName>
     <label>civil Redcoat union</label>
     <description>These people have lived here for centuries, and have sold most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced weapons.\n\nThey are concerned with the practical matters of Empire, Tea, and Spices.\n\nThis particular group holds civil behavior in modest regard.</description>
     <requiredMemes>
@@ -209,7 +209,7 @@
     </requiredMemes>
     <colorSpectrum>
       <li>(1, 0, 0)</li>
-      <li>(0.75, 0, 0)</li>
+      <li>(0.65, 0, 0)</li>
     </colorSpectrum>
     <classicIdeo>true</classicIdeo>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>

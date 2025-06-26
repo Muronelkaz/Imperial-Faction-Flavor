@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <ThingDef ParentName="Apparel_Duster">
+    <defName>IFF_Apparel_Duster</defName>
+    <description>Resembling a duster, this coat design has been used for several centuries in one form or another.</description>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0,0)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0,0)</only>
+        </li>
+        <li>
+          <weight>30</weight>
+          <only>(0.4,0.3,0.15)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0,0)</min>
+          <max>(0.5,0,0)</max>
+        </li>
+        <li>
+          <weight>2</weight>
+          <min>(0.5,0,0)</min>
+          <max>(1,0,0)</max>
+        </li>
+      </options>
+  </ThingDef>
+  
+</Defs>

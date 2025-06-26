@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnKindDef Name="RedCoatBase" Abstract="True">
+  <PawnKindDef Name="IFF_RedCoatBase" Abstract="True">
     <race>Human</race>
-    <defaultFactionType>RedcoatCivil</defaultFactionType>
+    <defaultFactionType>IFF_RedcoatCivil</defaultFactionType>
     <chemicalAddictionChance>0.12</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
     <maxGenerationAge>45</maxGenerationAge>
@@ -18,8 +18,8 @@
 
   <!-- Poverty tier - drifter -->
   
-  <PawnKindDef ParentName="RedCoatBase" Name="DrifterRedCoatBase">
-    <defName>DrifterRedCoat</defName>
+  <PawnKindDef ParentName="IFF_RedCoatBase" Name="IFF_DrifterRedCoatBase">
+    <defName>IFF_DrifterRedCoat</defName>
     <label>red coat drifter</label>
     <combatPower>35</combatPower>
     <invNutrition>0</invNutrition>
@@ -28,7 +28,7 @@
     <apparelMoney>90~280</apparelMoney>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <apparelRequired>
-      <li>Apparel_Duster</li>
+      <li>IFF_Apparel_Duster</li>
       <li>Apparel_FlakVest</li>
     </apparelRequired>
     <apparelTags>
@@ -59,13 +59,13 @@
 
   <!-- Low tier - scavenger, thrasher -->
 
-  <PawnKindDef ParentName="RedCoatBase" Name="RedCoatBaseScav" Abstract="True">
+  <PawnKindDef ParentName="IFF_RedCoatBase" Name="IFF_RedCoatBaseScav" Abstract="True">
     <combatPower>50</combatPower>
     <initialWillRange>1~3</initialWillRange>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
     <itemQuality>Normal</itemQuality>
     <apparelRequired>
-      <li>Apparel_Duster</li>
+      <li>IFF_Apparel_Duster</li>
       <li>Apparel_FlakVest</li>
     </apparelRequired>
     <apparelTags>
@@ -90,8 +90,8 @@
     </inventoryOptions>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="RedCoatBaseScav" Name="RedCoatScavengerBase">
-    <defName>RedCoatScavenger</defName>
+  <PawnKindDef ParentName="IFF_RedCoatBaseScav" Name="IFF_RedCoatScavengerBase">
+    <defName>IFF_RedCoatScavenger</defName>
     <label>red coat scavenger gunner</label>
     <apparelMoney>300~500</apparelMoney>
     <weaponMoney>200~300</weaponMoney>
@@ -101,8 +101,8 @@
     <initialResistanceRange>17~26</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="RedCoatBaseScav" Name="RedCoatThrasherBase">
-    <defName>RedCoatThrasher</defName>
+  <PawnKindDef ParentName="IFF_RedCoatBaseScav" Name="IFF_RedCoatThrasherBase">
+    <defName>IFF_RedCoatThrasher</defName>
     <label>red coat scavenger thrasher</label>
     <race>Human</race>
     <canBeSapper>true</canBeSapper>
@@ -121,8 +121,8 @@
 
   <!-- Mid tier - pirate -->
 
-  <PawnKindDef ParentName="RedCoatBase" Name="RedCoatBaseKind">
-    <defName>RedCoat</defName>
+  <PawnKindDef ParentName="IFF_RedCoatBase" Name="IFF_RedCoatBaseKind">
+    <defName>IFF_RedCoat</defName>
     <label>Red Coat</label>
     <race>Human</race>
     <combatPower>65</combatPower>
@@ -130,7 +130,7 @@
     <gearHealthRange>0.7~2.3</gearHealthRange>
     <apparelMoney>400~1000</apparelMoney>
     <apparelRequired>
-      <li>Apparel_Duster</li>
+      <li>IFF_Apparel_Duster</li>
       <li>Apparel_BasicShirt</li>
       <li>Apparel_FlakVest</li>
       <li>Apparel_FlakPants</li>
