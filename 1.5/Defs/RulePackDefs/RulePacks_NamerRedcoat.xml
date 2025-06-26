@@ -69,4 +69,14 @@
   </rulePack>
 </RulePackDef>
 
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Redcoat</defName>
+    <rulePack>
+      <ruleStrings>
+        <li>r_leaderTitle->General</li>
+        <li>r_leaderTitle->Colonel</li>
+      </ruleStrings>
+    </rulePack>
+  </RulePackDef>
+  
 </Defs>
