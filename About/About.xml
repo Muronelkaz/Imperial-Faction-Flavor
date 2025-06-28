@@ -15,6 +15,7 @@
   </incompatibleWith>
   <loadAfter>
     <li>vonschtirlitz.RCA</li>
+    <li>Sarg.AlphaMemes</li>
   </loadAfter>
   <forceLoadAfter>
     <li>Ludeon.RimWorld</li>
@@ -22,6 +23,5 @@
     <li>Ludeon.RimWorld.Ideology</li>
     <li>Ludeon.RimWorld.Biotech</li>
     <li>Ludeon.RimWorld.Anomaly</li>
-    <li>Sarg.AlphaMemes</li>
   </forceLoadAfter>
 </modMetaData>
