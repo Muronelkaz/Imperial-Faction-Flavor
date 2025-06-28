@@ -11,7 +11,8 @@
       <displayPriority>215</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
+      <texPath MayRequire="Sarg.AlphaMemes">Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</texPath>
+      <!--<texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>-->
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -42,7 +43,8 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
+      <wornGraphicPath MayRequire="Sarg.AlphaMemes">Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</wornGraphicPath>
+      <!--<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>-->
       <layers>
         <li>Shell</li>
       </layers>

@@ -9,6 +9,7 @@
     <li>1.6</li>
   </supportedVersions>
   <modDependencies>
+    <li>Sarg.AlphaMemes</li>
   </modDependencies>
   <incompatibleWith>
   </incompatibleWith>
@@ -21,5 +22,6 @@
     <li>Ludeon.RimWorld.Ideology</li>
     <li>Ludeon.RimWorld.Biotech</li>
     <li>Ludeon.RimWorld.Anomaly</li>
+    <li>Sarg.AlphaMemes</li>
   </forceLoadAfter>
 </modMetaData>
