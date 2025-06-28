@@ -25,6 +25,7 @@
       <packageId>Sarg.AlphaMemes</packageId>
       <displayName>Alpha Memes</displayName>
       <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2661356814</steamWorkshopUrl>
+      <downloadUrl>https://https://github.com/juanosarg/AlphaMemes</downloadUrl>
     </li>
   </modDependencies>
   <incompatibleWith>
