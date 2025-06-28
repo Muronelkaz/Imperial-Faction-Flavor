@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>IFF_Apparel_Duster</defName>
+    <defName>IFF_Apparel_Redcoat</defName>
     <description>Resembling a duster, this coat design has been used for several centuries in one form or another.</description>
     <label>Redcoat</label>
     <possessionCount>1</possessionCount>
@@ -41,26 +41,25 @@
         <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
-        <li>Legs</li>
       </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
       <wornGraphicPath MayRequire="Sarg.AlphaMemes">Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</wornGraphicPath>
-      <!--<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>-->
       <layers>
         <li>Shell</li>
       </layers>
       <tags>
-        <li>IndustrialAdvanced</li>
+        <li>IFF_Imperial</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
           <weight>10</weight>
-          <only>(0.33,0,0)</only>
+          <only>(0.45,0,0)</only>
         </li>
         <li>
           <weight>10</weight>
@@ -68,11 +67,11 @@
         </li>
         <li>
           <weight>30</weight>
-          <only>(0.4,0.3,0.15)</only>
+          <only>(0.5,0.3,0.15)</only>
         </li>
         <li>
           <weight>6</weight>
-          <min>(0.3,0,0)</min>
+          <min>(0.35,0,0)</min>
           <max>(0.5,0,0)</max>
         </li>
         <li>
@@ -86,5 +85,79 @@
       <li>BasicClothing</li>
     </tradeTags>
   </ThingDef>
-  
+
+  <ThingDef ParentName="HatMakeableBase" Name="CowboyHat">
+    <defName>IFF_Apparel_TricornHat</defName>
+    <label>Tricorn hat</label>
+    <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is the most important part of traditional Redcoat attire.</description>
+    <possessionCount>1</possessionCount>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <displayPriority>100</displayPriority>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</texPath>
+      <texPath MayRequire="Sarg.AlphaMemes">Things\Apparel\Corsair\AM_Tricorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.14</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.10</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</wornGraphicPath>
+      <wornGraphicPath MayRequire="Sarg.AlphaMemes">Things\Apparel\Corsair\AM_Tricorn</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>Western</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    
+  </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.54,0.15,1)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(0.9,0.6,0.18,1)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(0.9,0.42,0.23,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+
 </Defs>

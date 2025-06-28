@@ -28,7 +28,7 @@
     <apparelMoney>90~280</apparelMoney>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <apparelRequired>
-      <li>IFF_Apparel_Duster</li>
+      <li>IFF_Apparel_Redcoat</li>
       <li>Apparel_FlakVest</li>
     </apparelRequired>
     <apparelTags>
@@ -65,7 +65,7 @@
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
     <itemQuality>Normal</itemQuality>
     <apparelRequired>
-      <li>IFF_Apparel_Duster</li>
+      <li>IFF_Apparel_Redcoat</li>
       <li>Apparel_FlakVest</li>
     </apparelRequired>
     <apparelTags>
@@ -123,14 +123,14 @@
 
   <PawnKindDef ParentName="IFF_RedCoatBase" Name="IFF_RedCoatBaseKind">
     <defName>IFF_RedCoat</defName>
-    <label>Red Coat</label>
+    <label>Regular</label>
     <race>Human</race>
     <combatPower>65</combatPower>
     <maxGenerationAge>65</maxGenerationAge>
     <gearHealthRange>0.7~2.3</gearHealthRange>
     <apparelMoney>400~1000</apparelMoney>
     <apparelRequired>
-      <li>IFF_Apparel_Duster</li>
+      <li>IFF_Apparel_Redcoat</li>
       <li>Apparel_BasicShirt</li>
       <li>Apparel_FlakVest</li>
       <li>Apparel_FlakPants</li>

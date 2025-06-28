@@ -209,7 +209,7 @@
     </requiredMemes>
     <colorSpectrum>
       <li>(1, 0, 0)</li>
-      <li>(0.65, 0, 0)</li>
+      <li>(0.75, 0, 0)</li>
     </colorSpectrum>
     <classicIdeo>true</classicIdeo>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
