@@ -14,29 +14,6 @@
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
-    <inventoryOptions>
-      <li>
-        <thingDef>Silver</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>100</max>
-        </countRange>
-      </li>
-      <li>
-        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>15</max>
-        </countRange>
-      </li>
-      <li>
-        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
-        <countRange>
-          <min>0</min>
-          <max>2</max>
-        </countRange>
-      </li>
-    </inventoryOptions>
   </PawnKindDef>
 
   <!-- Poverty tier - drifter -->
@@ -69,6 +46,27 @@
     </techHediffsTags>
     <techHediffsChance>0.15</techHediffsChance>
     <inventoryOptions>
+      <li>
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>15</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>2</max>
+        </countRange>
+      </li>
       <skipChance>0.2</skipChance>
       <subOptionsChooseOne>
         <li>
@@ -112,6 +110,27 @@
     </techHediffsTags>
     <techHediffsChance>0.04</techHediffsChance>
     <inventoryOptions>
+      <li>
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>15</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>2</max>
+        </countRange>
+      </li>
       <skipChance>0.35</skipChance>
       <subOptionsChooseOne>
         <li>
@@ -197,6 +216,27 @@
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
     <inventoryOptions>
+      <li>
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>15</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>2</max>
+        </countRange>
+      </li>
       <skipChance>0.1</skipChance>
       <subOptionsChooseOne>
         <li>
