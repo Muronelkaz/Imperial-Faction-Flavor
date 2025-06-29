@@ -142,7 +142,7 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>50</weight>
+          <weight>25</weight>
           <min>(0,0,0)</min>
           <max>(0.25,0.05,0.05)</max>
           <!--<only>(0.25,0.05,0.05,1)</only>-->
@@ -154,7 +154,7 @@
           <!--<only>(0.05,0.25,0.05,1)</only>-->
         </li>
         <li>
-          <weight>50</weight>
+          <weight>25</weight>
           <min>(0,0,0)</min>
           <max>(0.2,0.2,0.2)</max>
           <!--<only>(0.05,0.05,0.25,1)</only>-->
