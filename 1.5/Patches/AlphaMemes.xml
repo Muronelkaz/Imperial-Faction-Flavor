@@ -8,14 +8,15 @@
     
     <match Class="PatchOperationSequence">
       <operations>
+        
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/ThingDef[defName="IFF_Apparel_Redcoat"]/texPath</xpath>
+          <xpath>Defs/ThingDef[defName="IFF_Apparel_Redcoat"]/GraphicData/texPath</xpath>
           <value>
             <texPath>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</texPath>
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/ThingDef[defName="IFF_Apparel_Redcoat"]/wornGraphicPath</xpath>
+          <xpath>Defs/ThingDef[defName="IFF_Apparel_Redcoat"]/apparel/wornGraphicPath</xpath>
           <value>
             <wornGraphicPath>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</wornGraphicPath>
           </value>
