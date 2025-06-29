@@ -3,7 +3,6 @@
   <v1.5>
     <li>/</li>
     <li>1.5</li>
-    <li IfModActive="Ludeon.RimWorld.Royalty">1.3/Compat/Royalty</li>
-    <li IfModActive="Ludeon.RimWorld.Ideology">1.3/Compat/Ideology</li>
+    <li IfModActive="Sarg.AlphaMemes">1.5/Compat/AlphaMemes</li>
   </v1.5>
 </loadFolders>
