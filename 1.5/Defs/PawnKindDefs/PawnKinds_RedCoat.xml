@@ -32,6 +32,7 @@
       <li>Apparel_FlakVest</li>
     </apparelRequired>
     <apparelTags>
+      <li>IFF_Redcoat</li>
       <li>IndustrialBasic</li>
     </apparelTags>
     <weaponMoney>60~200</weaponMoney>
@@ -69,6 +70,7 @@
       <li>Apparel_FlakVest</li>
     </apparelRequired>
     <apparelTags>
+      <li>IFF_Redcoat</li>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
     </apparelTags>
@@ -131,11 +133,13 @@
     <apparelMoney>400~1000</apparelMoney>
     <apparelRequired>
       <li>IFF_Apparel_Redcoat</li>
+      <li>IFF_Apparel_TricornHat</li>
       <li>Apparel_BasicShirt</li>
       <li>Apparel_FlakVest</li>
       <li>Apparel_FlakPants</li>
     </apparelRequired>
     <apparelTags>
+      <li>IFF_Redcoat</li>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
       <li>IndustrialMilitaryBasic</li>

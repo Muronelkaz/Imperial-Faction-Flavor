@@ -48,7 +48,8 @@
         <li>Shell</li>
       </layers>
       <tags>
-        <li>IFF_Imperial</li>
+        <li>IndustrialBasic</li>
+        <li>IFF_Redcoat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -86,7 +87,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="HatMakeableBase" Name="CowboyHat">
+  <ThingDef ParentName="HatMakeableBase">
     <defName>IFF_Apparel_TricornHat</defName>
     <label>Tricorn hat</label>
     <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is the most important part of traditional Redcoat attire.</description>
@@ -108,7 +109,7 @@
     </stuffCategories>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>1800</WorkToMake>
+      <WorkToMake>2000</WorkToMake>
       <Mass>0.14</Mass>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
@@ -117,7 +118,7 @@
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.10</SocialImpact>
-      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.5</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <apparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -132,12 +133,11 @@
       </layers>
       <tags>
         <li>IndustrialBasic</li>
-        <li>Western</li>
+        <li>IFF_Redcoat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
-    
   </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
