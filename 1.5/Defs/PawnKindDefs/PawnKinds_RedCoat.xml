@@ -114,13 +114,6 @@
           <thingDef>MedicineIndustrial</thingDef>
           <countRange>2</countRange>
         </li>
-        <li>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>25</max>
-          </countRange>
-        </li>
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>

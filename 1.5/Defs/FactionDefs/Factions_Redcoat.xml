@@ -97,7 +97,7 @@
         <kindDef>Combat</kindDef>
         <options>
           <Villager>5</Villager>
-          <Town_Guard>10</Town_Guard>
+          <IFF_RedCoat>10</IFF_RedCoat>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
           <Mercenary_Slasher>7</Mercenary_Slasher>
           <Mercenary_Gunner>10</Mercenary_Gunner>
@@ -110,7 +110,7 @@
         <options>
           <Villager>20</Villager>
           <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
-          <Town_Guard>10</Town_Guard>
+          <IFF_RedCoat>10</IFF_RedCoat>
           <Town_Councilman>10</Town_Councilman>
         </options>
       </li>
@@ -127,7 +127,7 @@
         </carriers>
         <guards>
           <Villager>3</Villager>
-          <Town_Guard>10</Town_Guard>
+          <IFF_RedCoat>10</IFF_RedCoat>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
           <Mercenary_Slasher>7</Mercenary_Slasher>
           <Mercenary_Gunner>10</Mercenary_Gunner>
@@ -138,7 +138,7 @@
         <kindDef>Settlement</kindDef>
         <options>
           <Villager>10</Villager>
-          <Town_Guard>10</Town_Guard>
+          <IFF_RedCoat>10</IFF_RedCoat>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
           <Mercenary_Slasher>7</Mercenary_Slasher>
           <Mercenary_Gunner>10</Mercenary_Gunner>
