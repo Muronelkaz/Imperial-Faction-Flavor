@@ -14,6 +14,12 @@
             <texPath>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</texPath>
           </value>
         </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDefs_Misc[defName="IFF_Apparel_Redcoat"]/wornGraphicPath</xpath>
+          <value>
+            <wornGraphicPath>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</wornGraphicPath>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>
