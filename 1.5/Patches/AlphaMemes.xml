@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
+  
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Sarg.AlphaMemes</li>
     </mods>
+    
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationReplace">
@@ -15,4 +17,5 @@
       </operations>
     </match>
   </Operation>
+  
 </Patch>
