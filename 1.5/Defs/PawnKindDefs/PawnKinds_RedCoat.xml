@@ -14,30 +14,6 @@
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
-    <subOptionsChooseOne>
-      <skipChance>0.05</skipChance>
-      <li>
-        <thingDef>Silver</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>100</max>
-        </countRange>
-      </li>
-      <li>
-        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>4</max>
-        </countRange>
-      </li>
-      <li>
-        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
-        <countRange>
-          <min>0</min>
-          <max>2</max>
-        </countRange>
-      </li>
-    </subOptionsChooseOne>
   </PawnKindDef>
 
   <!-- Poverty tier - drifter -->
@@ -194,6 +170,30 @@
         <li>
           <thingDef>MedicineIndustrial</thingDef>
           <countRange>2</countRange>
+        </li>
+      </subOptionsChooseOne>
+      <subOptionsChooseOne>
+        <skipChance>0.05</skipChance>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>100</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>4</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
+          <countRange>
+            <min>0</min>
+            <max>2</max>
+          </countRange>
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
