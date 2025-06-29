@@ -135,7 +135,7 @@
     <combatPower>65</combatPower>
     <maxGenerationAge>65</maxGenerationAge>
     <gearHealthRange>0.7~2.3</gearHealthRange>
-    <apparelMoney>400~1000</apparelMoney>
+    <apparelMoney>4000~10000</apparelMoney>
     <apparelRequired>
       <li>IFF_Apparel_Redcoat</li>
       <li>IFF_Apparel_TricornHat</li>
@@ -150,14 +150,14 @@
       <li>IndustrialMilitaryAdvanced</li>
       <li>IFF_Redcoat</li>
     </apparelTags>
-    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-    <weaponMoney>250~345</weaponMoney>
+    <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+    <weaponMoney>2500~3450</weaponMoney>
     <weaponTags>
       <li>Gun</li>
       <li>IFF_Redcoat</li>
     </weaponTags>
-    <techHediffsChance>0.04</techHediffsChance>
-    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsChance>0.1</techHediffsChance>
+    <techHediffsMoney>500~8000</techHediffsMoney>
     <techHediffsTags>
       <li>Poor</li>
       <li>Simple</li>
@@ -167,13 +167,11 @@
     <inventoryOptions>
       <skipChance>0.1</skipChance>
       <subOptionsChooseOne>
+        <skipChance>0</skipChance>
         <li>
           <thingDef>MedicineIndustrial</thingDef>
           <countRange>2</countRange>
         </li>
-      </subOptionsChooseOne>
-      <subOptionsChooseOne>
-        <skipChance>0.05</skipChance>
         <li>
           <thingDef>Silver</thingDef>
           <countRange>
@@ -191,7 +189,7 @@
         <li>
           <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
           <countRange>
-            <min>0</min>
+            <min>1</min>
             <max>2</max>
           </countRange>
         </li>

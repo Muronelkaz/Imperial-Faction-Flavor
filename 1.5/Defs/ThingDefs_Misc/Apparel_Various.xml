@@ -90,7 +90,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>IFF_Apparel_TricornHat</defName>
     <label>Tricorn hat</label>
-    <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is the most important part of traditional Redcoat attire.</description>
+    <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is the second most important part of traditional Redcoat attire.</description>
     <possessionCount>1</possessionCount>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
@@ -142,19 +142,19 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>25</weight>
+          <weight>10</weight>
           <min>(0,0,0)</min>
           <max>(0.25,0.05,0.05)</max>
           <!--<only>(0.25,0.05,0.05,1)</only>-->
         </li>
         <li>
-          <weight>75</weight>
+          <weight>85</weight>
           <min>(0,0,0)</min>
           <max>(0.05,0.05,0.05)</max>
           <!--<only>(0.05,0.25,0.05,1)</only>-->
         </li>
         <li>
-          <weight>25</weight>
+          <weight>50</weight>
           <min>(0,0,0)</min>
           <max>(0.2,0.2,0.2)</max>
           <!--<only>(0.05,0.05,0.25,1)</only>-->

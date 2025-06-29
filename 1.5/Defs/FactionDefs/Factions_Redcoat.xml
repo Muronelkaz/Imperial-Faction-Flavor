@@ -49,6 +49,7 @@
         <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0.03</Dirtmole>
         <Genie MayRequire="Ludeon.RimWorld.Biotech">0.025</Genie>
         <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.05</Neanderthal>
+        <VRE_Lowmate MayRequire="vanillaracesexpanded.highmate">0.02</VRE_Lowmate>
       </xenotypeChances>
     </xenotypeSet>
     <backstoryFilters>
@@ -99,7 +100,7 @@
           <Villager>5</Villager>
           <IFF_RedCoat>10</IFF_RedCoat>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
-          <Mercenary_Slasher>7</Mercenary_Slasher>
+          <IFF_RedCoatThrasher>7</IFF_RedCoatThrasher>
           <Mercenary_Gunner>10</Mercenary_Gunner>
           <Mercenary_Elite>10</Mercenary_Elite>
           <Town_Councilman>10</Town_Councilman>
@@ -129,7 +130,7 @@
           <Villager>3</Villager>
           <IFF_RedCoat>10</IFF_RedCoat>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
-          <Mercenary_Slasher>7</Mercenary_Slasher>
+          <IFF_RedCoatThrasher>7</IFF_RedCoatThrasher>
           <Mercenary_Gunner>10</Mercenary_Gunner>
           <Mercenary_Elite>10</Mercenary_Elite>
         </guards>
@@ -140,7 +141,7 @@
           <Villager>10</Villager>
           <IFF_RedCoat>10</IFF_RedCoat>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
-          <Mercenary_Slasher>7</Mercenary_Slasher>
+          <IFF_RedCoatThrasher>7</IFF_RedCoatThrasher>
           <Mercenary_Gunner>10</Mercenary_Gunner>
           <Mercenary_Elite>10</Mercenary_Elite>
           <Town_Councilman>10</Town_Councilman>
@@ -206,8 +207,14 @@
     <defName>IFF_RedcoatCivil</defName>
     <label>civil Redcoat union</label>
     <description>These people have lived here for centuries, and have sold most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced weapons.\n\nThey are concerned with the practical matters of Empire, Tea, and Spices.\n\nThis particular group holds civil behavior in modest regard.</description>
+    <allowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Nationalist</li>
+    </allowedMemes>
     <requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
     </requiredMemes>
     <colorSpectrum>
       <li>(1, 0, 0)</li>
