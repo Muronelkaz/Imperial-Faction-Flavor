@@ -1,9 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="IFF_Apparel_Redcoat"]/graphicData/texPath</xpath>
-    <value>
-      <li>Things/Pawn/Humanlike/Apparel/Duster/Duster</li>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Sarg.AlphaMemes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="IFF_Apparel_Redcoat"]/graphicData/texPath</xpath>
+          <value>
+            <li>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="IFF_Apparel_Redcoat"]/graphicData/apparel/wornGraphicPath</xpath>
+          <value>
+            <li>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</li>
+          </value>
+        </li>
+      </operations>
+    </match>
   </Operation>
 </Patch>
