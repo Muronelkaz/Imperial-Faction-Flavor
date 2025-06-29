@@ -63,21 +63,21 @@
           <only>(0.45,0,0)</only>
         </li>
         <li>
-          <weight>85</weight>
-          <only>(0.65,0,0)</only>
-        </li>
-        <li>
           <weight>40</weight>
           <only>(0.5,0.3,0.15)</only>
         </li>
         <li>
           <weight>10</weight>
-          <min>(0.35,0,0)</min>
-          <max>(0.5,0,0)</max>
+          <min>(0.05,0,0)</min>
+          <max>(0.65,0,0)</max>
         </li>
         <li>
-          <weight>40</weight>
-          <min>(0.5,0,0)</min>
+          <weight>75</weight>
+          <only>(0.65,0,0)</only>
+        </li>
+        <li>
+          <weight>50</weight>
+          <min>(0.65,0.05,0.05)</min>
           <max>(1,0,0)</max>
         </li>
       </options>
@@ -143,15 +143,21 @@
       <options>
         <li>
           <weight>40</weight>
-          <only>(0.45,0.15,0.15,1)</only>
+          <min>(0,0,0)</min>
+          <max>(0.25,0.05,0.05)</max>
+          <!--<only>(0.25,0.05,0.05,1)</only>-->
         </li>
         <li>
           <weight>30</weight>
-          <only>(0.15,0.45,0.15,1)</only>
+          <min>(0,0,0)</min>
+          <max>(0.05,0.05,0.05)</max>
+          <!--<only>(0.05,0.25,0.05,1)</only>-->
         </li>
         <li>
           <weight>30</weight>
-          <only>(0.15,0.15,0.45,1)</only>
+          <min>(0,0,0)</min>
+          <max>(0.2,0.2,0.2)</max>
+          <!--<only>(0.05,0.05,0.25,1)</only>-->
         </li>
       </options>
     </colorGenerator>

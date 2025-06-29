@@ -46,11 +46,32 @@
     </techHediffsTags>
     <techHediffsChance>0.15</techHediffsChance>
     <inventoryOptions>
-      <skipChance>0.9</skipChance>
+      <skipChance>0.2</skipChance>
       <subOptionsChooseOne>
         <li>
           <thingDef>MedicineHerbal</thingDef>
           <countRange>1</countRange>
+        </li>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>25</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>5</max>
+          </countRange>
+        </li>
+        <li>
+        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>5</max>
+        </countRange>
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
@@ -86,7 +107,28 @@
       <subOptionsChooseOne>
         <li>
           <thingDef>MedicineIndustrial</thingDef>
-          <countRange>1</countRange>
+          <countRange>2</countRange>
+        </li>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>25</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>3</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
@@ -148,21 +190,44 @@
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     <weaponMoney>250~345</weaponMoney>
     <weaponTags>
+      <li>IFF_Redcoat</li>
       <li>Gun</li>
     </weaponTags>
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>50~800</techHediffsMoney>
     <techHediffsTags>
+      <li>IFF_Redcoat</li>
       <li>Poor</li>
       <li>Simple</li>
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
     <inventoryOptions>
-      <skipChance>0.9</skipChance>
+      <skipChance>0.1</skipChance>
       <subOptionsChooseOne>
         <li>
           <thingDef>MedicineIndustrial</thingDef>
-          <countRange>1</countRange>
+          <countRange>2</countRange>
+        </li>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>25</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>3</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
