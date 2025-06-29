@@ -194,6 +194,8 @@
             <li>MealSurvivalPack</li>
             <li>Neutroamine</li>
             <li>MedicineUltratech</li>
+            <li MayRequire="VanillaExpanded.VBrewE">VBE_Tea</li>
+            <li MayRequire="VanillaExpanded.VBrewE">VBE_Gun</li>
           </thingDefs>
         </filter>
       </fixedParams>

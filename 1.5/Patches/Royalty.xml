@@ -3,7 +3,6 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
     <value>
-      <li>IFF_Redcoat</li>
       <li>IFF_RedcoatCivil</li>
     </value>
   </Operation>
