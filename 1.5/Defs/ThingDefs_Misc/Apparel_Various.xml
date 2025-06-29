@@ -71,12 +71,12 @@
           <only>(0.5,0.3,0.15)</only>
         </li>
         <li>
-          <weight>6</weight>
+          <weight>10</weight>
           <min>(0.35,0,0)</min>
           <max>(0.5,0,0)</max>
         </li>
         <li>
-          <weight>2</weight>
+          <weight>20</weight>
           <min>(0.5,0,0)</min>
           <max>(1,0,0)</max>
         </li>
@@ -142,16 +142,16 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>10</weight>
-          <only>(0.9,0.54,0.15,1)</only>
-        </li>
-        <li>
-          <weight>15</weight>
-          <only>(0.9,0.6,0.18,1)</only>
+          <weight>20</weight>
+          <only>(0.9,0.6,0.15,1)</only>
         </li>
         <li>
           <weight>20</weight>
-          <only>(0.9,0.42,0.23,1)</only>
+          <only>(0.15,0.9,0.6,1)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(0.6,0.15,0.9,1)</only>
         </li>
       </options>
     </colorGenerator>
