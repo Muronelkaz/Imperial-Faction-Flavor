@@ -9,13 +9,13 @@
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/ThingDefs_Misc[defName="IFF_Apparel_Redcoat"]/texPath</xpath>
+          <xpath>/Defs/ThingDef[defName="IFF_Apparel_Redcoat"]/texPath</xpath>
           <value>
             <texPath>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</texPath>
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/ThingDefs_Misc[defName="IFF_Apparel_Redcoat"]/wornGraphicPath</xpath>
+          <xpath>/Defs/ThingDef[defName="IFF_Apparel_Redcoat"]/wornGraphicPath</xpath>
           <value>
             <wornGraphicPath>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</wornGraphicPath>
           </value>
