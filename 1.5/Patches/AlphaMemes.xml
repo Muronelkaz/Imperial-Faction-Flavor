@@ -4,11 +4,15 @@
     <mods>
       <li>Sarg.AlphaMemes</li>
     </mods>
-    <match Class="PatchOperationReplace">
-      <xpath>/Defs/ThingDefs_Misc[defName="IFF_Apparel_Redcoat"]/texPath</xpath>
-      <value>
-        <texPath>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</texPath>
-      </value>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDefs_Misc[defName="IFF_Apparel_Redcoat"]/texPath</xpath>
+          <value>
+            <texPath>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</texPath>
+          </value>
+        </li>
+      </operations>
     </match>
   </Operation>
 </Patch>
