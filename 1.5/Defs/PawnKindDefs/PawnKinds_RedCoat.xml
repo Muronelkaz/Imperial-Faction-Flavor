@@ -14,6 +14,30 @@
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
+    <subOptionsChooseOne>
+      <skipChance>0.05</skipChance>
+      <li>
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>4</max>
+        </countRange>
+      </li>
+      <li>
+        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>2</max>
+        </countRange>
+      </li>
+    </subOptionsChooseOne>
   </PawnKindDef>
 
   <!-- Poverty tier - drifter -->
@@ -47,39 +71,11 @@
     </techHediffsTags>
     <techHediffsChance>0.15</techHediffsChance>
     <inventoryOptions>
-      <li>
-        <thingDef>Silver</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>100</max>
-        </countRange>
-      </li>
-      <li>
-        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>15</max>
-        </countRange>
-      </li>
-      <li>
-        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
-        <countRange>
-          <min>0</min>
-          <max>2</max>
-        </countRange>
-      </li>
       <skipChance>0.2</skipChance>
       <subOptionsChooseOne>
         <li>
           <thingDef>MedicineHerbal</thingDef>
           <countRange>1</countRange>
-        </li>
-        <li>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>1</min>
-            <max>25</max>
-          </countRange>
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
@@ -200,27 +196,6 @@
       <li>IFF_Redcoat</li>
     </techHediffsTags>
     <inventoryOptions>
-      <li>
-        <thingDef>Silver</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>100</max>
-        </countRange>
-      </li>
-      <li>
-        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Tea</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>15</max>
-        </countRange>
-      </li>
-      <li>
-        <thingDef MayRequire="VanillaExpanded.VBrewE">VBE_Gin</thingDef>
-        <countRange>
-          <min>0</min>
-          <max>2</max>
-        </countRange>
-      </li>
       <skipChance>0.1</skipChance>
       <subOptionsChooseOne>
         <li>

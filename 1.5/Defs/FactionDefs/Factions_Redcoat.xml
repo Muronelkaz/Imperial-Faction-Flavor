@@ -195,7 +195,7 @@
             <li>Neutroamine</li>
             <li>MedicineUltratech</li>
             <li MayRequire="VanillaExpanded.VBrewE">VBE_Tea</li>
-            <li MayRequire="VanillaExpanded.VBrewE">VBE_Gun</li>
+            <li MayRequire="VanillaExpanded.VBrewE">VBE_Gin</li>
           </thingDefs>
         </filter>
       </fixedParams>
