@@ -11,8 +11,8 @@
       <displayPriority>215</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath MayRequire="Sarg.AlphaMemes">Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</texPath>
       <!--<texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>-->
+      <texPath MayRequire="Sarg.AlphaMemes">Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -42,7 +42,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
+      <!--<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>-->
       <wornGraphicPath MayRequire="Sarg.AlphaMemes">Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</wornGraphicPath>
       <layers>
         <li>Shell</li>
@@ -97,8 +97,8 @@
       <displayPriority>100</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</texPath>
-      <texPath MayRequire="Sarg.AlphaMemes">Things\Apparel\Corsair\AM_Tricorn</texPath>
+      <!--<texPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</texPath>-->
+      <texPath MayRequire="Sarg.AlphaMemes">Things\Apparel\Corsair\AM_Tricorn\AM_Tricorn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9, 0.9)</drawSize>
     </graphicData>
@@ -126,8 +126,8 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</wornGraphicPath>
-      <wornGraphicPath MayRequire="Sarg.AlphaMemes">Things\Apparel\Corsair\AM_Tricorn</wornGraphicPath>
+      <!--<wornGraphicPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</wornGraphicPath>-->
+      <wornGraphicPath MayRequire="Sarg.AlphaMemes">Things\Apparel\Corsair\AM_Tricorn\AM_Tricorn</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
