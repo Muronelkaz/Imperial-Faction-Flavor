@@ -167,7 +167,6 @@
     <inventoryOptions>
       <skipChance>0.1</skipChance>
       <subOptionsChooseOne>
-        <skipChance>0</skipChance>
         <li>
           <thingDef>MedicineIndustrial</thingDef>
           <countRange>2</countRange>
