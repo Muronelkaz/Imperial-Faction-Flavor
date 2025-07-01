@@ -32,7 +32,6 @@
     <apparelRequired>
       <li>IFF_Apparel_Redcoat</li>
       <li>IFF_Apparel_Waistcoat</li>
-      <li>Apparel_FlakVest</li>
     </apparelRequired>
     <apparelTags>
       <li>IndustrialBasic</li>
@@ -71,7 +70,6 @@
     <itemQuality>Normal</itemQuality>
     <apparelRequired>
       <li>IFF_Apparel_Redcoat</li>
-      <li>IFF_Apparel_Waistcoat</li>
       <li>Apparel_FlakVest</li>
     </apparelRequired>
     <apparelTags>
