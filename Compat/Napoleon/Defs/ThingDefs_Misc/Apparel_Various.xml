@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef ParentName="Apparel_Duster" Name="IFF_Redcoat">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>IFF_Apparel_Redcoat</defName>
     <description>Resembling a duster, this coat design has been used for several centuries in one form or another.</description>
     <label>Redcoat</label>
@@ -11,7 +11,7 @@
       <displayPriority>215</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
+    <texPath MayRequire="Sarg.AlphaMemes">Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -41,7 +41,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath>
+      <wornGraphicPath MayRequire="Sarg.AlphaMemes">Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -85,84 +85,25 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="ApparelMakeableBase">
-    <defName>IFF_Apparel_Waistcoat</defName>
-    <description>A nice-looking waistcoat.</description>
-    <label>Waistcoat</label>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-      <displayPriority>208</displayPriority>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costStuffCount>35</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <thingCategories>
-      <li>ApparelMisc</li>
-    </thingCategories>
-    <statBases>
-      <MaxHitPoints>130</MaxHitPoints>
-      <WorkToMake>2750</WorkToMake>
-      <Mass>0.2</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1.5</EquipDelay>
-    </statBases>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</wornGraphicPath>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      <tags>
-        <li>IndustrialBasic</li>
-        <li>IFF_Redcoat</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Worker</li>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>80</weight>
-          <min>(0.35,0.35,0.35)</min>
-          <max>(0.75,0.75,0.75)</max>
-        </li>
-        <li>
-          <weight>15</weight>
-          <only>(0.5,0.5,0.5)</only>
-        </li>
-      </options>
-    </colorGenerator>
-    <tradeTags>
-      <li>BasicClothing</li>
-    </tradeTags>
-  </ThingDef>
-
-  <ThingDef ParentName="CowboyHat" Name="IFF_TricornHat">
+  <ThingDef ParentName="HatMakeableBase">
     <defName>IFF_Apparel_TricornHat</defName>
     <label>Tricorn hat</label>
     <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is the second most important part of traditional Redcoat attire.</description>
     <possessionCount>1</possessionCount>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <displayPriority>100</displayPriority>
+    </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</texPath>
+      <texPath MayRequire="Sarg.AlphaMemes">Things/Apparel/Corsair/AM_Tricorn/AM_Tricorn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9, 0.9)</drawSize>
     </graphicData>
     <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
@@ -182,7 +123,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</wornGraphicPath>
+      <wornGraphicPath MayRequire="Sarg.AlphaMemes">Things/Apparel/Corsair/AM_Tricorn/AM_Tricorn</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -220,5 +161,5 @@
       <li>BasicClothing</li>
     </tradeTags>
   </ThingDef>
-  
+
 </Defs>
