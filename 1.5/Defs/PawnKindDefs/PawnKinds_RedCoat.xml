@@ -29,6 +29,7 @@
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <apparelRequired>
       <li>IFF_Apparel_Redcoat</li>
+      <li>IFF_Apparel_Waistcoat</li>
       <li>Apparel_FlakVest</li>
     </apparelRequired>
     <apparelTags>
@@ -68,6 +69,7 @@
     <itemQuality>Normal</itemQuality>
     <apparelRequired>
       <li>IFF_Apparel_Redcoat</li>
+      <li>IFF_Apparel_Waistcoat</li>
       <li>Apparel_FlakVest</li>
     </apparelRequired>
     <apparelTags>
@@ -138,6 +140,7 @@
     <apparelMoney>4000~10000</apparelMoney>
     <apparelRequired>
       <li>IFF_Apparel_Redcoat</li>
+      <li>IFF_Apparel_Waistcoat</li>
       <li>IFF_Apparel_TricornHat</li>
       <li>Apparel_BasicShirt</li>
       <li>Apparel_FlakVest</li>
