@@ -85,7 +85,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="Apparel_CollarShirt" Name="IFF_Waistcoat">
+  <ThingDef ParentName="ApparelMakeableBase" Name="IFF_Waistcoat">
     <defName>IFF_Apparel_Waistcoat</defName>
     <description>A nice-looking waistcoat.</description>
     <label>Waistcoat</label>
