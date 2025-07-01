@@ -15,7 +15,9 @@
       <li>Violent</li>
     </requiredWorkTags>
   </PawnKindDef>
-
+  
+  <!-- Redo Pawn tiers - Volunteer, Fencible, Militia, Enlisted, Private, Regular, Grenadier, Officer, Tradesman -->
+  
   <!-- Poverty tier - drifter -->
   
   <PawnKindDef ParentName="IFF_RedCoatBase" Name="IFF_DrifterRedCoatBase">
