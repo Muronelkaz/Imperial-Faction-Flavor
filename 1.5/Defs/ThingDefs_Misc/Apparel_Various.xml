@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef ParentName="ApparelMakeableBase">
+  <ThingDef ParentName="Apparel_Duster" Name="Redcoat">
     <defName>IFF_Apparel_Redcoat</defName>
     <description>Resembling a duster, this coat design has been used for several centuries in one form or another.</description>
     <label>Redcoat</label>
@@ -85,7 +85,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="Apparel_CollarShirt">
+  <ThingDef ParentName="Apparel_CollarShirt" Name="Waistcoat">
     <defName>IFF_Apparel_Waistcoat</defName>
     <description>A nice-looking waistcoat.</description>
     <label>Waistcoat</label>
@@ -147,7 +147,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="CowboyHat">
+  <ThingDef ParentName="CowboyHat" Name="TricornHat">
     <defName>IFF_Apparel_TricornHat</defName>
     <label>Tricorn hat</label>
     <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is the second most important part of traditional Redcoat attire.</description>
@@ -215,7 +215,5 @@
       <li>BasicClothing</li>
     </tradeTags>
   </ThingDef>
-
-  
   
 </Defs>
