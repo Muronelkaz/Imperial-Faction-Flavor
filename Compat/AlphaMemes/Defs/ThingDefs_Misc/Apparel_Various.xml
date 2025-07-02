@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="ApparelMakeableBase" Name="IFF_DusterRedcoat">
     <defName>IFF_Apparel_Redcoat</defName>
-    <description>Resembling a duster, this coat design has been used for several centuries in one form or another. Using Alphamemes Corsair textures.</description>
+    <description>Resembling a duster, this coat design has been used for several centuries in one form or another.</description>
     <label>Redcoat</label>
     <possessionCount>1</possessionCount>
     <recipeMaker>
@@ -18,12 +18,11 @@
     <costStuffCount>90</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
-      <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
       <li>ApparelMisc</li>
     </thingCategories>
-    <!--<statBases>
+    <statBases>
       <MaxHitPoints>400</MaxHitPoints>
       <WorkToMake>12000</WorkToMake>
       <Mass>1.75</Mass>
@@ -31,7 +30,7 @@
       <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>4</EquipDelay>
-    </statBases>-->
+    </statBases>
     <equippedStatOffsets>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.5</SlaveSuppressionOffset>
     </equippedStatOffsets>
@@ -173,7 +172,7 @@
       <displayPriority>208</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</texPath>
+      <texPath>Things/Apparel/Corsair/AM_CorsairShirt/AM_CorsairShirt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>35</costStuffCount>
@@ -200,7 +199,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/Corsair/AM_CorsairShirt/AM_CorsairShirt</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -237,7 +236,7 @@
     <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is the second most important part of traditional Redcoat attire.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</texPath>
+      <texPath>Things/Apparel/Corsair/AM_Tricorn/AM_Tricorn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9, 0.9)</drawSize>
     </graphicData>
@@ -261,7 +260,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/Corsair/AM_Tricorn/AM_Tricorn</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -272,7 +271,7 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
-  </apparel>
+    </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
@@ -313,7 +312,7 @@
       <displayPriority>225</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</texPath>
+      <texPath>Things/Apparel/Corsair/AM_CorsairFlakJacket/AM_CorsairFlakJacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.00</drawSize>
     </graphicData>
@@ -347,7 +346,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/Corsair/AM_CorsairFlakJacket/AM_CorsairFlakJacket</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
