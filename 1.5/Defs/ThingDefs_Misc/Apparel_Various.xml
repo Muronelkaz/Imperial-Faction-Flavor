@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef ParentName="Apparel_Duster" Name="IFF_Redcoat">
+  <ThingDef ParentName="Apparel_Duster">
     <defName>IFF_Apparel_Redcoat</defName>
     <description>Resembling a duster, this coat design has been used for several centuries in one form or another.</description>
     <label>Redcoat</label>
@@ -85,7 +85,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="Apparel_Jacket" Name="IFF_ShortRedcoat">
+  <ThingDef ParentName="Apparel_Jacket">
     <defName>IFF_Apparel_ShortRedcoat</defName>
     <label>Short Redcoat</label>
     <description>A shorter version of the Redcoat, the iconic jacket of the Redcoats.</description>
@@ -163,7 +163,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="Apparel_CollarShirt" Name="IFF_FrillShirt">
+  <ThingDef ParentName="Apparel_CollarShirt">
     <defName>IFF_Apparel_FrillShirt</defName>
     <description>A nice-looking frilled shirt with buttons.</description>
     <label>Frilly Shirt</label>
@@ -230,7 +230,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="CowboyHat" Name="IFF_TricornHat">
+  <ThingDef ParentName="CowboyHat">
     <defName>IFF_Apparel_TricornHat</defName>
     <label>Tricorn hat</label>
     <description>Stylish yet rugged, this hat keeps the sun and rain off - and it gives anyone who wears it a bit of extra charm. It is the second most important part of traditional Redcoat attire.</description>
@@ -299,7 +299,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="Apparel_FlakJacket" Name="IFF_FlakRedcoat">
+  <ThingDef ParentName="Apparel_FlakJacket">
     <defName>IFF_Apparel_RedcoatFlak</defName>
     <label>Flak Redcoat</label>
     <description>A tough fabric jacket with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable.</description>
@@ -390,7 +390,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="Apparel_FlakPants" Name="IFF_Flakpants">
+  <ThingDef ParentName="Apparel_FlakPants">
     <defName>IFF_Apparel_Flakpants</defName>
     <label>flak pants</label>
     <description>A pair of pants with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable.</description>
