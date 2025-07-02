@@ -68,5 +68,30 @@
     </rulesStrings>
   </rulePack>
 </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Redcoat</defName>
+    <include>
+      <li>LeaderTitleMaker_GlobalStructure</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+        <!-- ignore all meme nouns, pirates always use a culture noun and apparently redcoats too? -->
+
+        <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+
+        <li>cultureLeaderAdjective->big</li>
+        <li>cultureLeaderAdjective->top</li>
+        <li>cultureLeaderAdjective->full</li>
+
+        <li>cultureLeaderNoun->gaffer</li>
+        <li>cultureLeaderNoun->guv'nor</li>
+        <li>cultureLeaderNoun->cheese</li>
+        <li>cultureLeaderNoun->tory</li>
+        <li>cultureLeaderNoun->cunt</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
   
 </Defs>
