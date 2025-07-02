@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef ParentName="ApparelMakeableBase" Name="IFF_Redcoat">
+  <ThingDef ParentName="ApparelMakeableBase" Name="IFF_DusterRedcoat">
     <defName>IFF_Apparel_Redcoat</defName>
     <description>Resembling a duster, this coat design has been used for several centuries in one form or another.</description>
     <label>Redcoat</label>
