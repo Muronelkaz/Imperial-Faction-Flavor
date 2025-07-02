@@ -60,13 +60,4 @@
     </styleItemTags>
   </CultureDef>
   
-  <RulePackDef>
-    <defName>LeaderTitleMaker_Redcoat</defName>
-    <rulePack>
-      <ruleStrings>
-        <li>r_leaderTitle->General</li>
-      </ruleStrings>
-    </rulePack>
-  </RulePackDef>
-  
 </Defs>
