@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="ApparelMakeableBase" Name="IFF_DusterRedcoat">
     <defName>IFF_Apparel_Redcoat</defName>
-    <description>Resembling a duster, this coat design has been used for several centuries in one form or another.</description>
+    <description>Resembling a duster, this coat design has been used for several centuries in one form or another. Using Alphamemes Corsair textures.</description>
     <label>Redcoat</label>
     <possessionCount>1</possessionCount>
     <recipeMaker>
@@ -18,11 +18,12 @@
     <costStuffCount>90</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
+      <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
       <li>ApparelMisc</li>
     </thingCategories>
-    <statBases>
+    <!--<statBases>
       <MaxHitPoints>400</MaxHitPoints>
       <WorkToMake>12000</WorkToMake>
       <Mass>1.75</Mass>
@@ -30,7 +31,7 @@
       <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>4</EquipDelay>
-    </statBases>
+    </statBases>-->
     <equippedStatOffsets>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.5</SlaveSuppressionOffset>
     </equippedStatOffsets>
@@ -91,7 +92,7 @@
     <description>A shorter version of the Redcoat, the iconic jacket of the Redcoats.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
+      <texPath>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
@@ -119,7 +120,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/Corsair/AM_CorsairJacket/AM_CorsairJacket</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
