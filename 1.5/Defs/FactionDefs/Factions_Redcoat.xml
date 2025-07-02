@@ -14,7 +14,7 @@
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>General</leaderTitle>
     <fixedLeaderKinds>
-      <li>IFF_RedCoat</li>
+      <li>IFF_RedCoatRegular</li>
     </fixedLeaderKinds>
     <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
     <techLevel>Spacer</techLevel>
