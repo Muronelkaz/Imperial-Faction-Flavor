@@ -130,7 +130,7 @@
 
   <!-- Mid tier - pirate -->
 
-  <PawnKindDef ParentName="IFF_RedcoatBase">
+  <PawnKindDef ParentName="IFF_RedcoatBase" Name="IFF_RedcoatRegular">
     <defName>IFF_RedcoatRegular</defName>
     <label>Regular</label>
     <race>Human</race>
@@ -200,5 +200,15 @@
     <initialWillRange>2~3</initialWillRange>
     <initialResistanceRange>7~12</initialResistanceRange>
   </PawnKindDef>
+
+  <!-- IFF_Redcoat_Volunteer - Base game melee and ranged weapons-->
+  <!-- IFF_Redcoat_Fencible - Base game melee with base game apparels -->
+  <!-- IFF_Redcoat_Militia - Basic outfit with older weapons -->
+  <!-- IFF_Redcoat_Enlisted - Basic outfit with standard weapons -->
+  <!-- IFF_Redcoat_Private - Advanced outfit with standard weapons -->
+  <!-- IFF_Redcoat_Regular - General all-rounder mixed unit -->
+  <!-- IFF_Redcoat_Grenadier - Advanced outfit with heavy weapons -->
+  <!-- IFF_Redcoat_Officer - Royalty or Imperial adjacent -->
+  <!-- IFF_Redcoat_Tradesman - Trader, doing trade -->
 
 </Defs>
