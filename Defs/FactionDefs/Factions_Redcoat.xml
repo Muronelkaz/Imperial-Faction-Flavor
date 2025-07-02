@@ -109,7 +109,7 @@
         <options>
           <Villager>20</Villager>
           <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
-          <IFF_Redcoat>10</IFF_Redcoat>
+          <IFF_RedcoatRegular>10</IFF_RedcoatRegular>
           <Town_Councilman>10</Town_Councilman>
       </options>
       </li>
