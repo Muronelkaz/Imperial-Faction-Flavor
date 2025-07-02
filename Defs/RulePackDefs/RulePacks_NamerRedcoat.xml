@@ -64,7 +64,7 @@
       <li>name->Edinburgh</li>
       <li>name->Glasglow</li>
       <li>name->Cardiff</li>
-      <li>nameB->need more names</li>
+      <li>nameB->nee'dmor Namys</li>
     </rulesStrings>
   </rulePack>
 </RulePackDef>
@@ -85,11 +85,13 @@
         <li>cultureLeaderAdjective->top</li>
         <li>cultureLeaderAdjective->full</li>
 
-        <li>cultureLeaderNoun->gaffer</li>
-        <li>cultureLeaderNoun->guv'nor</li>
-        <li>cultureLeaderNoun->cheese</li>
-        <li>cultureLeaderNoun->tory</li>
-        <li>cultureLeaderNoun->cunt</li>
+        <li>cultureLeaderNoun->Gaffer</li>
+        <li>cultureLeaderNoun->Guv'nor</li>
+        <li>cultureLeaderNoun->Guv</li>
+        <li>cultureLeaderNoun->Cheese</li>
+        <li>cultureLeaderNoun->Chief</li>
+        <li>cultureLeaderNoun->Tory</li>
+        <li>cultureLeaderNoun->Cunt</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

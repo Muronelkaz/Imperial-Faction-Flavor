@@ -3,7 +3,7 @@
   <v1.5>
     <li>/</li>
     <li>1.5</li>
-    <!--<li IfModActive="Sarg.AlphaMemes">Compat/AlphaMemes</li>-->
+    <li IfModActive="Sarg.AlphaMemes">Compat/AlphaMemes</li>
     <!--<li IfModActive="vonschtirlitz.RCA">Compat/RedcoatApparel</li>-->
     <!--<li IfModActive="uniform.redcoat">Compat/Redcoats!</li>-->
     <!--<li IfModActive="george.NapoleonicRim">Compat/Napoleonic Rim</li>-->
