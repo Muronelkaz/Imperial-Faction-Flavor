@@ -51,6 +51,11 @@
         <VRE_Lowmate MayRequire="vanillaracesexpanded.highmate">0.02</VRE_Lowmate>
       </xenotypeChances>
     </xenotypeSet>
+    <permanentEnemyToEveryoneExcept>
+      <li>OutlanderCivil</li>
+      <li>PlayerColony</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">Empire</li>
+    </permanentEnemyToEveryoneExcept>
     <backstoryFilters>
       <li>
         <categories>
