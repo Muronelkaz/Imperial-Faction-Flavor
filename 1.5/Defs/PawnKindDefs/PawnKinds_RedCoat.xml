@@ -96,7 +96,7 @@
     </inventoryOptions>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="IFF_RedCoatBaseScav" Name="IFF_RedCoatScavengerBase">
+  <PawnKindDef ParentName="IFF_RedCoatBaseScav">
     <defName>IFF_RedCoatScavenger</defName>
     <label>redcoat scavenger gunner</label>
     <apparelMoney>300~500</apparelMoney>
@@ -108,7 +108,7 @@
     <initialResistanceRange>17~26</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="IFF_RedCoatBaseScav" Name="IFF_RedCoatThrasherBase">
+  <PawnKindDef ParentName="IFF_RedCoatBaseScav">
     <defName>IFF_RedCoatThrasher</defName>
     <label>redcoat scavenger thrasher</label>
     <race>Human</race>
@@ -130,7 +130,7 @@
 
   <!-- Mid tier - pirate -->
 
-  <PawnKindDef ParentName="IFF_RedCoatBase" Name="IFF_RedcoatRegular">
+  <PawnKindDef ParentName="IFF_RedCoatBase">
     <defName>IFF_RedcoatRegular</defName>
     <label>Regular</label>
     <race>Human</race>

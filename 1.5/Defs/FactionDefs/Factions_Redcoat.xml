@@ -12,7 +12,7 @@
     <canMakeRandomly>True</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>General</leaderTitle>
+    <leaderTitle>general</leaderTitle>
     <fixedLeaderKinds>
       <li>IFF_RedcoatRegular</li>
     </fixedLeaderKinds>
