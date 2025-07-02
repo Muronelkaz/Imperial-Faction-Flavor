@@ -96,7 +96,7 @@
         <kindDef>Combat</kindDef>
         <options>
           <Villager>5</Villager>
-          <IFF_Redcoat>10</IFF_Redcoat>
+          <IFF_RedcoatRegular>10</IFF_RedcoatRegular>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
           <IFF_RedcoatThrasher>7</IFF_RedcoatThrasher>
           <Mercenary_Gunner>10</Mercenary_Gunner>
@@ -126,7 +126,7 @@
         </carriers>
         <guards>
           <Villager>3</Villager>
-          <IFF_Redcoat>10</IFF_Redcoat>
+          <IFF_RedcoatRegular>10</IFF_RedcoatRegular>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
           <IFF_RedcoatThrasher>7</IFF_RedcoatThrasher>
           <Mercenary_Gunner>10</Mercenary_Gunner>
@@ -137,7 +137,7 @@
         <kindDef>Settlement</kindDef>
         <options>
           <Villager>10</Villager>
-          <IFF_Redcoat>10</IFF_Redcoat>
+          <IFF_RedcoatRegular>10</IFF_RedcoatRegular>
           <Grenadier_Destructive>1.5</Grenadier_Destructive>
           <IFF_RedcoatThrasher>7</IFF_RedcoatThrasher>
           <Mercenary_Gunner>10</Mercenary_Gunner>
