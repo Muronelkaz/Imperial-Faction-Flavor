@@ -21,8 +21,9 @@
     <factionNameMaker>NamerFactionRedcoat</factionNameMaker>
     <settlementNameMaker>NamerSettlementRedcoat</settlementNameMaker>
     <allowedCultures>
-      <li>Rustican</li>
-      <li>Sophian</li>
+      <!--<li>Rustican</li>-->
+      <!--<li>Sophian</li>-->
+      <li>Redcoat</li>
     </allowedCultures>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
