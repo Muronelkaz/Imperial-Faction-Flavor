@@ -172,7 +172,7 @@
       <displayPriority>208</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Apparel/Corsair/AM_CorsairShirt/AM_CorsairShirt</texPath>
+      <texPath>Things/Apparel/Corsair/AM_CorsairButtonShirt/AM_CorsairButtonShirt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>35</costStuffCount>
@@ -199,7 +199,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/Corsair/AM_CorsairShirt/AM_CorsairShirt</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/Corsair/AM_CorsairButtonShirt/AM_CorsairButtonShirt</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
