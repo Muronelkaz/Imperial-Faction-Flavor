@@ -131,7 +131,7 @@
   <!-- Mid tier - pirate -->
 
   <PawnKindDef ParentName="IFF_RedCoatBase" Name="IFF_RedCoatBaseKind">
-    <defName>IFF_RedCoat</defName>
+    <defName>IFF_RedcoatRegular</defName>
     <label>Regular</label>
     <race>Human</race>
     <combatPower>65</combatPower>
