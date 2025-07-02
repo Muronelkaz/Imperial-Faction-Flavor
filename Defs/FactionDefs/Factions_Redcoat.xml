@@ -214,7 +214,7 @@
     </colorSpectrum>
     <classicIdeo>true</classicIdeo>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
-    <maxConfigurableAtWorldCreation>3</maxConfigurableAtWorldCreation>
+    <maxConfigurableAtWorldCreation>7</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>20</configurationListOrderPriority>
   </FactionDef>
 
