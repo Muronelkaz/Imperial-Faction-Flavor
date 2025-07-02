@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnKindDef Name="IFF_RedCoatBase" Abstract="True">
+  <PawnKindDef Name="IFF_RedcoatBase" Abstract="True">
     <race>Human</race>
     <defaultFactionType>IFF_RedcoatCivil</defaultFactionType>
     <chemicalAddictionChance>0.12</chemicalAddictionChance>
@@ -20,8 +20,8 @@
   
   <!-- Poverty tier - drifter -->
   
-  <PawnKindDef ParentName="IFF_RedCoatBase" Name="IFF_DrifterRedCoatBase">
-    <defName>IFF_DrifterRedCoat</defName>
+  <PawnKindDef ParentName="IFF_RedcoatBase" Name="IFF_DrifterRedcoatBase">
+    <defName>IFF_DrifterRedcoat</defName>
     <label>redcoat drifter</label>
     <combatPower>35</combatPower>
     <invNutrition>0</invNutrition>
@@ -63,7 +63,7 @@
 
   <!-- Low tier - scavenger, thrasher -->
 
-  <PawnKindDef ParentName="IFF_RedCoatBase" Name="IFF_RedCoatBaseScav" Abstract="True">
+  <PawnKindDef ParentName="IFF_RedcoatBase" Name="IFF_RedcoatBaseScav" Abstract="True">
     <combatPower>50</combatPower>
     <initialWillRange>1~3</initialWillRange>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
@@ -96,8 +96,8 @@
     </inventoryOptions>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="IFF_RedCoatBaseScav">
-    <defName>IFF_RedCoatScavenger</defName>
+  <PawnKindDef ParentName="IFF_RedcoatBaseScav">
+    <defName>IFF_RedcoatScavenger</defName>
     <label>redcoat scavenger gunner</label>
     <apparelMoney>300~500</apparelMoney>
     <weaponMoney>200~300</weaponMoney>
@@ -108,8 +108,8 @@
     <initialResistanceRange>17~26</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="IFF_RedCoatBaseScav">
-    <defName>IFF_RedCoatThrasher</defName>
+  <PawnKindDef ParentName="IFF_RedcoatBaseScav">
+    <defName>IFF_RedcoatThrasher</defName>
     <label>redcoat scavenger thrasher</label>
     <race>Human</race>
     <canBeSapper>true</canBeSapper>
@@ -130,7 +130,7 @@
 
   <!-- Mid tier - pirate -->
 
-  <PawnKindDef ParentName="IFF_RedCoatBase">
+  <PawnKindDef ParentName="IFF_RedcoatBase">
     <defName>IFF_RedcoatRegular</defName>
     <label>Regular</label>
     <race>Human</race>
